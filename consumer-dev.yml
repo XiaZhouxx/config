@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: xz-consumer
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/,http://localhost:9999/eureka/
